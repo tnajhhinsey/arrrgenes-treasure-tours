@@ -62,9 +62,10 @@ body {
   background-color: #bea59b;
 }
 
-.nav a:focus{
+.nav a:focus {
   outline: .15rem solid #fff;
 }
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -107,7 +108,7 @@ body {
 .banner a:hover,
 .banner a:focus {
   background-color: #fff;
-  color: #522806
+  color: #522806;
 }
 
 .banner a:focus {
@@ -159,13 +160,14 @@ body {
 .card a:hover,
 .card a:focus {
   background-color: #522806;
-  color: #fff
+  color: #fff;
 }
 
 .card a:focus {
   outline: .15rem solid #522806;
   outline-offset: .3rem;
 }
+
 .footer {
   background-color: #522806;
   border-top: .3rem solid #bea59b;
