@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .masthead {
@@ -56,6 +57,14 @@ body {
   text-decoration: none;
 }
 
+.nav a:hover,
+.nav a:focus {
+  background-color: #bea59b;
+}
+
+.nav a:focus{
+  outline: .15rem solid #fff;
+}
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -93,6 +102,17 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:hover,
+.banner a:focus {
+  background-color: #fff;
+  color: #522806
+}
+
+.banner a:focus {
+  outline: .15rem solid #fff;
+  outline-offset: .3rem;
 }
 
 .ship {
@@ -136,6 +156,16 @@ body {
   text-decoration: none;
 }
 
+.card a:hover,
+.card a:focus {
+  background-color: #522806;
+  color: #fff
+}
+
+.card a:focus {
+  outline: .15rem solid #522806;
+  outline-offset: .3rem;
+}
 .footer {
   background-color: #522806;
   border-top: .3rem solid #bea59b;
